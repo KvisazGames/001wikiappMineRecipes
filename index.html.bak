@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="./css/material.min.css">
+    <script src="./css/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <h1>Большая книга Рецептов Minecraft</h1>
+    <p>Здесь глобальный список рецептов, которые будут описываться на отдельных
+      страницах</p>
+    <h2>Материалы для крафта</h2>
+    Золотой слиток<br>
+    Железный слиток<br>
+    Алмаз&nbsp; <br>
+    Красная пыль<br>
+    Кость &nbsp;&nbsp;&nbsp;&nbsp; <br>
+    Кремень &nbsp;&nbsp;&nbsp; <br>
+    Кожа &nbsp;&nbsp;&nbsp; <br>
+    Бумага &nbsp;&nbsp; <br>
+    Слизь &nbsp; <br>
+    Перо <br>
+    Светопыль <br>
+    Палка<br>
+    Нить&nbsp; <br>
+    Порох<br>
+    Древесный уголь &nbsp;&nbsp;&nbsp;&nbsp; <br>
+    Уголь &nbsp;&nbsp;&nbsp; <br>
+    Кирпич&nbsp; <br>
+    Глина &nbsp;&nbsp; <br>
+    Книга &nbsp;&nbsp; <br>
+    Приготовленный плод коруса &nbsp;&nbsp;&nbsp;&nbsp; <br>
+    Призмариновый осколок &nbsp;&nbsp;&nbsp;&nbsp; <br>
+    Призмариновый кристалл &nbsp;&nbsp; <br>
+    Кроличья шкурка &nbsp;&nbsp;&nbsp; <br>
+    Кварц &nbsp;&nbsp;&nbsp;&nbsp; <br>
+    Золотой самородок<br>
+    Адский кирпич &nbsp;&nbsp;&nbsp; <br>
+    Звезда Нижнего мира <br>
+    <p> <span id="Stick"></span> </p>
+    <h2>Еда</h2>
+    <h2>Инструменты</h2>
+    <h2>Оружие</h2>
+    <h2>Броня</h2>
+    <h2>Разные инструменты</h2>
+    <p>часы карта компас</p>
+    <h2>Транспорт</h2>
+    <h2>Семена</h2>
+    <h2>Декорации</h2>
+    <h2>Красители</h2>
+    <h2>Зелья</h2>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <p style="margin-top: -4px; height: 53px;"><br>
+    </p>
+    <p style="margin-top: -4px; height: 53px;"><br>
+    </p>
+  </body>
+</html>
