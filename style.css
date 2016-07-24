@@ -1,3 +1,9 @@
 #wrap {
-	margin: 32px;
+	
 }
+
+.ui-icon-mine-sword:after {
+			background-image: url("i/weapon/sword_diamond_icon.png");
+			/* Make your icon fit */
+			background-size: 18px 18px;
+		}
