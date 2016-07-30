@@ -11,14 +11,15 @@
 		<script language="JavaScript" type="text/javascript" src="css/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
   </head>
   <body>
+  <div  data-role="page">
+  <div class="ui-header ui-bar-a" data-swatch="a" data-theme="a" data-form="ui-bar-a" data-role="header" role="banner">
+		<a href="index.html" data-transition="slideup reverse"  role="button" data-role="button" class="ui-btn-left ui-btn-corner-all ui-btn ui-icon-home ui-btn-icon-notext ui-shadow" title=" Home " data-form="ui-icon"> Home </a>
+		<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">Еда</h1>
+		<a role="button" data-role="button" class="ui-btn-right ui-btn-corner-all ui-btn ui-icon-grid ui-btn-icon-notext ui-shadow" title=" Navigation " data-form="ui-icon"> Navigation </a>
+	</div>
+  <div  role="main" id="wrap" class="ui-content">
   
-  
-		<a href="index.html" data-transition="slideup reverse" data-role="button" title=" Home " data-form="ui-icon"> Home </a>
-		<h1 tabindex="0">Еда</h1>
-		<a data-role="button" title=" Navigation " data-form="ui-icon"> Navigation </a>
-	
-  
-    
+    <div data-role="collapsible" >
 	  <h3>Торт</h3>
 	  
     <p><img src="i/food/cake_92_150px.png" width="150" height="128"></p>
@@ -31,7 +32,10 @@
     <p>Торт нельзя складывать в стопки, поэтому каждая единица торта занимает отдельную ячейку в инвентаре.</p>
     <h4>Внимание!</h4>
     <p> Если попробовать разбить торт или блок под ним, торт исчезнет. Также торт исчезнет при попытке передвинуть его поршнем или липким поршнем.     </p>
+	</div>
 	
+
+	<div data-role="collapsible">
     <h3>Тушеный кролик</h3>
 	
     <p><img src="i/food/rabbit_stewed_413_150px.png" width="150" height="150"></p>
@@ -39,7 +43,8 @@
     <p>Рецепт: Жареная крольчатина + Печёный картофель + Чашка + Морковь или Коричневый гриб или Красный гриб.</p>
     <p><img src="i/food/rabbit_recipe.png" width="218" height="125"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареная говядина</h3>
 	
     <p><img src="i/food/steak_150px.png" width="150" height="150"></p>
@@ -47,7 +52,8 @@
     <p>Восстанавливает 4 единицы голода и 12,8 насыщения.</p>
     <p><img src="i/food/steak_recipe.png" width="217" height="126"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареная свинина</h3>
 	
     <p><img src="i/food/grilledpork_150px.png" width="150" height="150"></p>
@@ -57,7 +63,8 @@
     <p><img src="i/food/grilledpork_recipe.png" width="218" height="126"></p>
     <p>&nbsp;</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Тыквенный пирог</h3>
 	
     <p><img src="i/food/Pumpkin_Pie_150.png" width="150" height="150"></p>
@@ -66,7 +73,8 @@
     <p>Рецепт: тыква, яйцо и сахар. Все необходимые ингредиенты для тыквенного пирога можно найти буквально под ногами.</p>
     <p><img src="i/food/Pumpkin_Pie_recipe.png" width="218" height="126"></p>
    
-   
+   </div>
+	<div data-role="collapsible">
 	<h3>Тушеные грибы</h3>
 	 
     <p><img src="i/food/Mushroomsoup_150px.png" width="150" height="150"></p>
@@ -76,7 +84,8 @@
     <p><img src="i/food/Mushroomsoup_recipe.png" width="218" height="126"></p>
     <p> Тушёные грибы также можно получить, применив пустую чашку на грибной корове. </p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Свекольный суп</h3>
 	
     <p><img src="i/food/Beetrootsoup_150px.png" width="150" height="150"></p>
@@ -85,7 +94,8 @@
     <p>Рецепт: 6 свекол и 1 деревянная миска. </p>
     <p><img src="i/food/Beetrootsoup_recipe.png" width="218" height="126"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Золотая морковь</h3>
 	
     <p><img src="i/food/carrot_golden_150px.png" width="150" height="150"></p>
@@ -93,14 +103,16 @@
     <p>Восстанавливает 3 единицы голода и 14,4 насыщения.</p>
     <p><img src="i/food/carrot_golden_recipe.png" width="216" height="126"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареная баранина</h3>
 	
     <p><img src="i/food/mutton_cooked_150px.png" width="150" height="150"></p>
     <p>Жареная баранина (англ. Cooked Mutton) — еда, которая получается из сырой баранины, приготовленной в печи. Также жареная баранина выпадает из обычной овцы, если она сгорела в огне. Восстанавливает 3 единицы голода и 9,6 уровня насыщения.</p>
     <p><img src="i/food/mutton_cooked_recipe.png" width="218" height="126"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Печёный картофель</h3>
 	
     <p><img src="i/food/potato_jacked_150px.png" width="120" height="120"></p>
@@ -109,7 +121,8 @@
     <p><img src="i/food/potato_jacked_recipe.png" width="218" height="125"></p>
     <p>&nbsp;</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареная курятина</h3>
 	
     <p><img src="i/food/Cookedchicken_150px.png" width="150" height="150"></p>
@@ -117,7 +130,8 @@
     <p>Жареную курятину можно также получить, если поджечь куриц огнивом, или использовав ведро лавы на блок, где стоит курица и тут же убрать.</p>
     <p><img src="i/food/Cookedchicken_recipe.png" width="218" height="126"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареный лосось</h3>
 	
     <p><img src="i/food/fish_salmon_cooked_150px.png" width="150" height="150"></p>
@@ -126,7 +140,8 @@
     <p><img src="i/food/fish_cooked_recipe.png" width="218" height="125"></p>
     <p>&nbsp;</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареная крольчатина</h3>
 	
     <p><img src="i/food/rabbit_cooked_150px.PNG" width="150" height="150"></p>
@@ -134,7 +149,8 @@
     <p>Восстанавливает 2.5 единицы голода и 6 насыщения</p>
     <p><img src="i/food/rabbit_recipe.png" width="218" height="125"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Жареная рыба</h3>
 	
     <p><img src="i/food/fish_cooked_150px.png" width="150" height="150"></p>
@@ -144,7 +160,8 @@
     <p>Рыбалка является надёжным, быстрым источником пищи, а игроку не нужно ждать, пока появятся свиньи, коровы или созреет посаженная пшеница. Нужна только удочка, которую можно скрафтить из 3 палок и 2 нитей. Нити выпадают из паука, а пауки появляются каждую ночь - так что если есть оружие, можно сходить на охоту за пауками и наделать себе удочек. </p>
     <p>А еще  рыбу можно получить убив стража или древнего стража. </p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Хлеб</h3>
 	
     <p><img src="i/food/bread_150px.png" width="150" height="150"></p>
@@ -164,7 +181,8 @@
     <h3>Хитрость - подземная пшеница </h3>
     <p> Можно выкопать в шахте или под землей специальную пещеру и хорошо ей осветить, а затем сделать резервуар с водой (1 блока достаточно). Главное - покрыть пол пещеры землей, и тогда на ней тоже можно выращивать пшеницу в шахтах! </p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Морковь</h3>
 	
     <p><img src="i/food/carrot__150px.png" width="150" height="150"></p>
@@ -174,7 +192,8 @@
     <p>Из обычной морковки можно скрафтить золотую, которая используется для создания зелья ночного зрения и размножения лошадей. </p>
     <p><img src="i/food/carrot_golden_recipe.png" width="216" height="126"></p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Золотое яблоко</h3>
 	
     <p><img src="i/food/golden_apple_150px.png" width="150" height="150"></p>
@@ -187,7 +206,8 @@
     <p><img src="i/food/golden_apple_charmed_icon.png" width="32" height="32"></p>
     <p>Оно обладает намного более мощным эффектом: очень быстрая регенерация здоровья на протяжении 30 секунд, защита от огня, снижение урона игроку в течение 5 минут и Поглощение на 2 минуты. Зачарованное золотое яблоко отличается от обычного по сиянию, характерному для зачарованных предметов, и пурпурной подписи.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Красное яблоко</h3>
 	
     <p><img src="i/food/apple_150px.png" width="150" height="150"></p>
@@ -196,7 +216,8 @@
     <p>Восстанавливает 2 единицы голода и 2,4 насыщения.</p>
     <p>Из яблока можно изготовить золотое яблоко, которое помогает разводить лошадей, и зачарованное золотое яблоко. </p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Плод коруса</h3>
 	
     <p><img src="i/food/Chorus_Fruit_150px.png" width="150" height="150"></p>
@@ -207,7 +228,8 @@
     <p>Минусы -  труднодоступен: необходимо попасть в Край через портал, который нелегко найти, и убить дракона, чтобы попасть на дальние острова Края, где он и произрастает.</p>
     <p>&nbsp;</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Гнилая плоть</h3>
 	
     <p><img src="i/food/Rottenflesh_150px.png" width="150" height="150"></p>
@@ -227,28 +249,32 @@
       <li>Тяжело добыть при отсутствии экипировки/здоровья.</li>
     </ul>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Сырая говядина</h3>
 	
     <p><img src="i/food/RawBeef_150px.png" width="150" height="150"></p>
     <p>Сырая говядина (Raw Beef) выбивается из коров. Её можно испечь в печи, создав жареную говядину. Жареную говядину можно также получить, если поджечь коров огнивом, или использовав ведро лавы на блок, где стоит корова и тут же убрать.</p>
     <p>Сырая говядина восстанавливает 1.5 единицы голода и 1,8 насыщения. Жареная намного лучше.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Сырая крольчатина</h3>
 	
     <p><img src="i/food/rabbit_raw_150px.png" width="150" height="150"></p>
     <p>Восстанавливает 1.5 единицы голода и 1,8 насыщения.</p>
     <p>Сырая крольчатина (Raw Rabbit) иногда выпадает из кроликов при смерти. В печи её можно испечь, таким образом получив жареную крольчатину.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Сырая свинина</h3>
 	
     <p><img src="i/food/Pork_raw_150px.png" width="150" height="150"></p>
     <p>Восстанавливает 1.5 единицы голода и 1,8 насыщения.</p>
     <p>Сырая свинина (Raw Porkchop) выпадает из убитых свиней в количестве 1-3 кусков. В отличие от сырой курятины, сырая свинина не может вызвать несварение (отравление), но, будучи пожаренной в печи, восстанавливает больше сытости.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Ломтик арбуза</h3>
 	
     <p><img src="i/food/Melonslice_150px.png" width="150" height="150"></p>
@@ -266,7 +292,8 @@
       <li>Невозможно выращивание с помощью костной муки, так как влияет только на рост стебля, но не самих арбузов.</li>
     </ul>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Сырая курятина</h3>
 	
     <p><img src="i/food/Chicken_raw_150px.png" width="150" height="150"></p>
@@ -276,13 +303,15 @@
     <p><img src="i/food/fish_150px.png" width="150" height="150"></p>
     <p>Восстанавливает 1 единицу голода и 1,2 насыщения. Никаких побочных эффектов. </p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Сырой лосось</h3>
 	
     <p>&nbsp;</p>
     <p>Восстанавливает 1 единицу голода и 1,2 насыщения</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Печенье</h3>
 	
     <p><img src="i/food/Cookie_150px.png" width="150" height="150"></p>
@@ -292,21 +321,24 @@
     <p><img src="i/food/Cookie_recipe.png" width="218" height="126"></p>
     
 	
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Сырая баранина</h3>
 	
     <p><img src="i/food/mutton_raw_150px.png" width="150" height="150"></p>
     <p>Восстанавливает 1 единицу голода и 1,2 насыщения</p>
     <p>Сырая баранина выпадает из овцы. Может выпасть от 1 до 3 сразу. Может выпасть больше, если использовать оружие с зачарованием «Мародёрство»</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Паучий глаз</h3>
 	
     <p><img src="i/food/Spider_Eye_150px.png" width="150" height="150"></p>
     <p>Восстанавливает 1 единицу голода и 3,2 насыщения. Вызывает отравление. </p>
     <p>Паучий глаз (Spider Eye) выпадает из пауков. Глаз паука может быть приготовлен, и в таком виде используется в зельеварении для создания Непримечательного зелья. Также обычно меняет эффекты других зелий, но некоторые вредоносные становятся ещё вредоноснее. Если закусить гнилую плоть (после окончания несварения) двумя паучьими глазами и пересидеть отравление, замуровавшись в безопасном месте - можно полностью восстановить уровни еды и здоровья, будучи в сложном положении в пещере без возможности выхода. Таким образом, скитаться по пещерам без еды в поисках выхода можно неограниченно долго, при условии хороших боевых навыков.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Ядовитый картофель</h3>
 	
     <p><img src="i/food/potato_poisonous_150px.png" width="150" height="150"></p>
@@ -315,7 +347,8 @@
     <p>Интересно то, что ядовитый картофель восстанавливает больше единиц голода, нежели обычный. Пятна на ядовитом картофеле, вероятно, аналогичны реальному   заболеванию картофеля — солнцебоине. </p>
     <p>&nbsp;</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Свёкла</h3>
 	
     <p><img src="i/food/Beetroot_150px.png" width="150" height="150"></p>
@@ -324,7 +357,8 @@
     <p>Свёклу можно получить при разрушении полностью выращенного блока ростков, который дропает свёклу и семена свёклы. Эти ростки можно найти в деревнях.</p>
     <p>Свёклу можно использовать для разведения свиней. Если игрок держит в руке свёклу, свиньи будут следовать за ним.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Картофель</h3>
 	
     <p><img src="i/food/potato_150px.png" width="150" height="150"></p>
@@ -332,16 +366,21 @@
     <p>Картофель можно садить на грядки и разводить, подобно пшенице или моркови. После созревания с 1 грядки можно получить 1-4 единицы картофеля.При сборе существует шанс (2%) выпадения ядовитого картофеля. Иногда картофель можно выбить как редкий дроп из зомби, а также найти на грядках в деревнях.</p>
     <p>Для моментального созревания картофеля на грядке можно использовать костную муку. Зачарованные заклинанием «Удача» инструменты не приведут к выпадению большего количества урожая.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Рыба-клоун</h3>
 	
     <p><img src="i/food/fish_clownfish_150px.png" width="150" height="150"></p>
     <p>Восстанавливает пол-единицы голода и 0,6 насыщения.</p>
     
-	
+	</div>
+	<div data-role="collapsible">
 	<h3>Иглобрюх</h3>
 	
     <p><img src="i/food/fish_pufferfish_150px.png" width="150" height="150"></p>
     <p>Восстанавливает пол-единицы голода и 0,6 насыщения.</p>
-	</body>
+	</div>
+
+  </div></div>
+  </body>
 </html>

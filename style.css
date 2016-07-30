@@ -1,9 +1,199 @@
-#wrap {
+/* СSS */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Verdana, Arial, sans-serif;
+	font-size:14sp;
+	line-height:1.5;
+}
+
+.nof, .nofloat {
+	float: none;
+	clear: both; 	
+}
+
+a, img, li {
+	text-decoration:none;
+    transition: all 0.4s ease 0s;
+		transition-property: all;
+        transition-duration: 0.4s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+}
+
+
+.shadow { 
+		box-shadow: 0 0 10px 0 #333; /* x y размытие пропорции цвет */
+}
+
+.shadow2 { 
+		 box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.round {
+	border-radius: 10px;
+}
+
+/* ---------- fonts ---------------*/
+h1 { font-size:20sp; font-weight:normal; }
+h2 { font-size:20sp; }
+h3 { font-size:20sp; }
+h2 { font-size:20sp; }
+
+.display4 { font-size:112sp; }
+.display3 { font-size:56sp; }
+.display2 { font-size:45sp; }
+.display1 { font-size:34sp; }
+.headline { font-size:24sp; }
+.title { font-size:20sp; }
+.subheading { font-size:16sp; }
+.body { font-size:14sp; }
+.caption { font-size:12sp; }
+.button { font-size:14sp; text-transform: uppercase; }
+
+/* ----------  icons --------------*/
+.icon{
+	background-repeat: no-repeat;
+	padding-left: 44px;
+	background-position: 0px 8px;	
+}
+
+
+.icon_home { background-image: url("css/i/ic_home_white_24dp.png");}
+.icon-gold { background-image: url("css/i/gold_icon.png"); }
+.icon-apple { background-image: url("css/i/apple_icon.png"); }
+.icon-axe-iron { background-image: url("css/i/axe_steel_icon.png"); }
+.icon-sword-diamond { background-image: url("css/i/sword_diamond_icon.png"); padding-left: 46px;}
+.icon-armor-chestplate-diamond { 	background-image: url("css/i/armor_chestplate_diamond_icon.png"); }
+.icon-minecart { background-image: url("css/i/minecart_icon.png"); }
+
+/* ----------  LAYOUT --------------*/
+
+body {
+	background-color: #fafafa;
+}
+
+.screen{
+	height: 100vh;
+}
+
+.startscreen{
+	background-color:#667A3D;			
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.33);	
+}
+
+.menu{
+	padding-left:16px;
+	padding-right:16px;
+}
+
+.menu a, .menu p{	
+	display: block;
+	float: left;	
+	line-height:48px;
+	width:30%;		
+}
+
+.menu a{		
+	color: #ffffff;
+}
+
+.bottom-screen {		
+	position: absolute;
+    bottom: 0;    
+	width:100%;
+	max-height:35%;	
+	overflow:hidden;
+	}
+
+.bottom-screen img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}	
+	
+
+#appbar {
+	display:box;	
+	text-align: left;	
+	background-color:#2B4914;
+	text-transform: uppercase;	
+	font-weight: bold;
+	color: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.33);	
+}
+
+#appbar a {
+	color: #fff;
+}
+	
+#appbar h1{	
+	font-size: 24px;
+	line-height: 56px;
+}
+
+#c {
+	height:100%;	
+}
+
+#content-iframe{
+	border-width: 0px;	
+	border-style: none;	
+} 
+
+
+
+p {
+	margin-bottom: 10px;
+}
+
+.section {
+	border-top:1px solid #dedede;
 	
 }
 
-.ui-icon-mine-sword:after {
-			background-image: url("i/weapon/sword_diamond_icon.png");
-			/* Make your icon fit */
-			background-size: 18px 18px;
-		}
+.sample {
+	padding: 10px 20px 10px 20px;
+	border: solid 1px #BFB3DF;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom:20px;
+}
+
+/* buttons */
+.button {
+	display:block;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1;
+	padding:7px;		
+	border-radius:7px;
+	color: #fff;
+	background-color: #ffd600; 
+	text-align:center;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19), 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button { 
+	text-decoration: none !important;
+	color: #000000 !important;
+	}
+
+.button:hover {
+	width:450px;	
+	background-color:#aeea00;
+	border-radius:20px;
+}
+
+/*  adaptive sidebar for big screen */
+/*  переопредели некоторые ключевые свойства - и все заработает */
+
+@media screen and (min-width: 800px) {
+	
+}
